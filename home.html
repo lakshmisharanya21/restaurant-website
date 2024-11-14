@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <style>
+        /* Reset margins and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-image: url(nav.png); /* Replace with the path to your background image */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #ffffff;
+            text-align: center;
+        }
+        /* Navbar styling */
+        nav {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffd700; /* Gold color on hover */
+        }
+
+        /* Content styling */
+        .content {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            color:whitesmoke;
+            padding-top: 50px; 
+        }
+
+        .content h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+            text-shadow: 20px 10px 10px rgba(254, 9, 9, 0.5);
+        }
+
+        .content p {
+            font-size: 1.0em;
+            max-width: 600px;
+            margin: 0 auto;
+            text-shadow: 8px 8px 9px rgba(198, 10, 250, 0.5);
+        }
+    </style>
+</head>
+<body>
+
+
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="cards.html">Menu</a></li>
+            <li><a href="C:\Users\Sharanya\OneDrive\Desktop\ui technologies\restaurent\contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="content" id="home">
+        <h1>Welcome to KARGIPO</h1>
+        <p>Experience the best flavors and ambiance in town.</p>
+    </div>
+
+</body>
+</html>

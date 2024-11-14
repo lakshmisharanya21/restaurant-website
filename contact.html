@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Include Font Awesome for social media icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Basic Styles */
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            overflow-x: hidden;
+            display: flex;
+            justify-content: center; /* Center content horizontally */
+            align-items: center; /* Center content vertically */
+            min-height: 90vh; /* Ensure body takes full viewport height */
+            background-image: url(BACK.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        /* Content Wrapper - Center everything on the page */
+        .content-wrapper {
+            width: 100%;
+            max-width: 600px; /* Set maximum width of the form */
+            height: 100%;
+            padding: 20px;
+            background-color:whitesmoke;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            margin-top: 10px;
+            margin-bottom: 10px;
+            position: relative;
+        }
+        .container {
+            width: 250px; /* Smaller form size */
+            background-color: rgba(249, 245, 245, 0.909);
+            padding: 15px; /* Reduced padding */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            position: relative;
+            z-index: 1;
+        }
+
+        h2 {
+            text-align: center;
+            color: #9525c9;
+            font-size: 24px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        input, select, button {
+            width: 100%;
+            padding: 5px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            height: 30px;
+        }
+
+        button {
+            background-color: #9d1cc4;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #3d10d2;
+        }
+
+        /* Footer with Contact Details and Social Media Icons */
+        .footer {
+            background-color: #9a57b7;
+            color: rgb(12, 9, 9);
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+        .footer p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            font-size: 24px; /* Larger icon size */
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #2d0fed;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Content Wrapper (Center Booking Form) -->
+    <div class="content-wrapper">
+        <h2>KARGIPO Table Booking</h2>
+        <form>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phone" required placeholder="Enter your phone number">
+
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Time</label>
+            <input type="time" id="time" name="time" required>
+            <label for="people">Number of People</label>
+            <select id="people" name="people" required>
+                <option value="1">1 Person</option>
+                <option value="2">2 People</option>
+                <option value="3">3 People</option>
+                <option value="4">4 People</option>
+                <option value="5">5 People</option>
+                <option value="6">6 People</option>
+                <option value="7">7 People</option>
+                <option value="8">8 People</option>
+                <option value="9">9 People</option>
+                <option value="10">10 People</option>
+            </select>
+            <button type="submit">Book Table</button>
+        </form>
+    </div>
+
+    <!-- Footer with Contact Details and Social Media Icons -->
+    <div class="footer">
+        <p>Contact us: <strong>9002003001</strong> | Email: <strong>kargipo@restaurant.com</strong></p>
+        <p> SATVA CITY,GACHIBOWLI,520064</p>
+
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank">
+                <i class="fab fa-facebook-f"></i> <!-- Facebook logo -->
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <i class="fab fa-twitter"></i> <!-- Twitter logo -->
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <i class="fab fa-instagram"></i> <!-- Instagram logo -->
+            </a>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</body>
+</html>

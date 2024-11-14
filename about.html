@@ -1,0 +1,75 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .about-section {
+            display:flex;
+            align-items:center;
+            justify-content:flex-start;
+            height: 100vh;
+            background-image: url('5.png'); 
+            background-size: cover;
+            background-position: center;
+            color: #f3eeee;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+        .about-content {
+            display: flex;
+            align-items:center;
+            padding:30px;
+            border-radius: 8px;
+            max-width: 1200px;
+            width: 400%;
+        }
+        .about-text {
+            flex:1;
+            align-items: center;
+            padding: 20px;
+            color: black;
+            font-family:'Trebuchet MS';
+        }
+        .about-text h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .about-text p {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+        .owner-image {
+            width:300px;
+            height: auto;
+            border-radius: 10px;
+            margin-left: 30px;
+        }
+        @media (max-width: 800px) {
+            .about-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            .owner-image {
+                margin: 20px 0 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="about-section">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>HISTORY</h2>
+                <p>Three engineering best friends, each with a shared passion for food, decided to leave behind their nine-to-five careers to open a restaurant that combines their love for culinary creativity with a commitment to innovation. Together, they bring a mix of technical precision, problem-solving skills, and a deep appreciation for diverse flavors to the table. From designing an efficient kitchen layout to implementing sustainable food practices, their engineering backgrounds allow them to optimize every detail. Driven by a dream of crafting a unique dining experience, they aim to create a welcoming space where every dish tells a story, blending the precision of their engineering minds with the artistry of cooking.</p>
+            </div>
+            <img src="Owner.jpg" alt="Owner Image" class="owner-image">
+        </div>
+    </section>
+</body>
+</html>
